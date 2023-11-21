@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>projeto</title>
+    <link rel="stylesheet" href="/lib/css_bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+            <a class="navbar-brand" href="#">PH CARS</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link active" aria-current="page" href="#">Novidades</a>
+                    <a class="nav-link" href="#">Contato</a>
+                    <a class="nav-link" href="#">Sobre nos</a>
+                </div>
+            </div>
+            </div>
+        </nav>
+        <hr>
+        <div id="carouselExampleCaptions" class="carousel slide">
+            <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="/img/carros.jpg" class="d-block w-100">
+                <div class="carousel-caption d-none d-md-block">
+                <h5>First slide label</h5>
+                <p>Some representative placeholder content for the first slide.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="/img/carros2.jpg" class="d-block w-100">
+                <div class="carousel-caption d-none d-md-block">
+                <h5>Second slide label</h5>
+                <p>Some representative placeholder content for the second slide.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="/img/carros3.jpg" class="d-block w-100">
+                <div class="carousel-caption d-none d-md-block">
+                <h5>Third slide label</h5>
+                <p>Some representative placeholder content for the third slide.</p>
+                </div>
+            </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <hr>
+    </div>
+    <div class="container"> <!-- Container do Bootstrap para layout responsivo -->
+        <div class="row"> <!-- Linha do Bootstrap para conter colunas -->
+            <!-- Primeira coluna com um card -->
+            <div class="col-md-6 col-sm-6">
+                <div class="card flex-fill">
+                    <div class="card-header">
+                        SuperCars <!-- Cabeçalho do card -->
+                    </div>
+                    <img src="https://images.squarespace-cdn.com/content/v1/5f7ca9b4bb17060b028086bb/5e8a15e9-a574-4a28-abac-0d6c61b1a9e1/DSC03194-min.jpg?format=1500w"> <!-- Imagem no card -->
+                    <div class="card-body">
+                        <h4 class="card-title">PAGANI ZONDA TRICOLORE</h4> <!-- Título do card -->
+                        <h5 class="card-subtitle">2010</h5> <!-- Subtítulo do card -->
+                        <p class="text"> <!-- Conteúdo de texto no card -->
+                            O Zonda estreou em 1999 como o primeiro veículo de produção da Pagani. Desde a sua introdução, o fabricante boutique italiano desenvolveu múltiplas versões do modelo em fibra de carbono, cada uma das quais impulsionou o já surpreendente desempenho do anterior. Este Zonda Tricolore especial, o último construído, foi baseado no Cinque, o Zonda de estrada mais potente. Para comemorar o 50º aniversário do esquadrão italiano Frecce Tricolori, ele apresenta pintura nas cores da bandeira italiana, entradas de refrigeração triangulares e uma barbatana montada na parte traseira.
+                            MOTOR: V-12 de 7,3 litros
+                            VELOCIDADE MÁXIMA: N/A
+                            POTÊNCIA: 670
+                            ACELERAÇÃO DE 0-62 MPH: 3,4 segundos
+                            NÚMERO CONSTRUÍDO: 3
+                            PREÇO: $ 1,75 milhão +
+                            
+                        </p>
+                        <a href="#" class="btn btn-primary">tenho interesse</a> <!-- Botão no card -->
+                    </div>
+                </div>
+            </div>
+
+            <!-- Segunda coluna com um card -->
+            <div class="col-md-6 col-sm-6">
+                <div class="card flex-fill"> <!-- Observação: A classe 'text-bg-dark' não é uma classe padrão do Bootstrap -->
+                    <div class="card-header">
+                        SuperCars
+                    </div>
+                    <img src="https://s.glbimg.com/jo/g1/f/original/2011/02/28/koenigsegg-agera-r-1-620.jpg">
+                    <div class="card-body">
+                        <h4 class="card-title">Koenigsegg Agera R</h4>
+                        <h5 class="card-subtitle">Subtítulo do card</h5>
+                        <p class="text">
+                            O  Koenigsegg Jesko Absolut é um supercarro de alta performance desenvolvido pela fabricante sueca Koenigsegg. Apresentado como uma variante do Jesko, foi projetado para alcançar velocidades extremas, visando superar o recorde mundial de velocidade para carros de produção. Seu motor V8 biturbo de 5.0 litros produz incríveis 1.600 cavalos de potência. O design aerodinâmico e os materiais avançados contribuem para sua extraordinária velocidade máxima. Este modelo exemplifica a busca constante da Koenigsegg pela inovação e desempenho excepcional no mundo dos supercarros.
+                        </p>
+                        <a href="#" class="btn btn-primary">tenho interesse</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Terceira coluna com um card -->
+            <div class="col-md-6 col-sm-6">
+                <div class="card flex-fill">
+                    <div class="card-header">
+                        SuperCars
+                    </div>
+                    <img src="https://quatrorodas.abril.com.br/wp-content/uploads/2020/11/lamborghini-huracan-sto-official-30.jpg?quality=70&strip=info">
+                    <div class="card-body">
+                        <h4 class="card-title">lamborguini Huracan Sto</h4>
+                        <h5 class="card-subtitle">2021</h5>
+                        <p class="text">
+                            O Huracán STO é uma edição limitada e focada na pista, com motor central V10 apropriado para isso e uma série de alterações em comum com o Huracán Super Trofeo Evo. Só tem um detalhe: o STO é homologada,A dianteira do superesportivo conta com uma grade revisada, entradas de ar remodeladas e um elemento aerodinâmico proeminente pintado de laranja. Na verdade, capô, para-lamas e para-choque são uma única
+                        </p>
+                        <a href="#" class="btn btn-primary">tenho interesse</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="container"> <!-- Container do Bootstrap para layout responsivo -->
+            <div class="row"> <!-- Linha do Bootstrap para conter colunas -->
+                <!-- Primeira coluna com um card -->
+                <div class="col-md-6 col-sm-6">
+                    <div class="card">
+                        <div class="card-header" <!-- Cabeçalho do card -->
+                            SuperCars
+                        </div>
+                        <img src="https://korncars.files.wordpress.com/2013/04/ferrari-458.jpg"> <!-- Imagem no card -->
+                        <div class="card-body">
+                            <h4 class="card-title">Ferrari 458</h4> <!-- Título do card -->
+                            <h5 class="card-subtitle">2010</h5> <!-- Subtítulo do card -->
+                            <p class="text"> <!-- Conteúdo de texto no card -->
+                                O câmbio da 458 é de dupla embreagem, com 7 marchas, da GETRAG, que é o mesmo que equipa a Mercedes Benz SLS AMG, mas com configuração própria da Ferrari e totalmente diferente em termos de respostas aos comandos do motorista. O carro pesa cerca de 1245 Kgs.
+                                Em termos de performance, a Ferrari divulga que a 458 pode ir de 0 a 100 Km/h em cerca de 3,4 segundos; de 0 a 200 Km/h em 9,2 segundos; fazer o quarto de milha (400 metros) em 10,8 segundos; e atingir a velocidade máxima de 325 Km/h.
+                                O passeio começa de dentro de um estacionamento, ainda dentro do perímetro urbano da Cidade de Las Vegas. Saímos todos de dentro de um estacionamento de alguns andares. Estando dentro de uma FERRARI com motor central, sem nunca ter dirigido ela, alguém deve pensar que conduzir a 458 dentro de um estacionamento não deve ser exatamente a tarefa mais fácil… rampas de acesso, valetas, lombadas etc.
+                            </p>
+                            <a href="#" class="btn btn-primary">tenho interesse</a> <!-- Botão no card -->
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Segunda coluna com um card -->
+                <div class="col-md-6 col-sm-6">
+                    <div class="card flex-fill">
+                        <div class="card-header">
+                            SuperCars <!-- Cabeçalho do card -->
+                        </div>
+                        <img src="https://img.olx.com.br/images/54/549301703266234.jpg">
+                        <div class="card-body">
+                            <h4 class="card-title">MCLAREN COUPE 540C V8 BI-TURBO</h4>
+                            <h5 class="card-subtitle">2019</h5>
+                            <p class="text">
+                                MCLAREN 540C V8
+2018/18 ° 18.766
+Motor 3.8 V8 bi-turbo de 540cv
+0-100km/h em até 3,2s
+?-
+LED Diurno
+Rodas BLCK PIANO
+Pneus Novos PZERO
+Penúltimas Revisões na Mclaren
+Porta com abertura Vertical Mclaren
+Acabamento interno KALAMI Orange
+Modos de Condução Sport + Racing
+Acabamento em Carbono nas Portas
+Cinto na cor KALAMI Orange
+Freios a Disco Ventilados
+Velocidade Max 320km/h
+Câmbio PEDDAL SHIFT 7
+Sensor dianteiro Digital
+Bancos Racing Desing
+Multimídia BT 21.1 Pol.
+Alerta Anti-Colisão
+ABS EBD SYSTEM
+Painel TFT
+FULL PPF
+                            </p>
+                            <a href="#" class="btn btn-primary">tenho interesse</a>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Terceira coluna com um card -->
+                <div class="col-md-6 col-sm-6">
+                    <div class="card flex-fill">
+                        <div class="card-header">
+                            SuperCars <!-- Cabeçalho do card -->
+                        </div>
+                        <img src="https://www.revistafullpower.com.br/wp-content/uploads/2023/07/mansory-p9lm-evo-900-porsche-911-turbo-s-2.jpg">
+                        <div class="card-body">
+                            <h4 class="card-title">PORSCHE 911 TURBO S</h4>
+                            <h5 class="card-subtitle"></h5>
+                            <p class="text">
+                                A extravagância da Mansory também se estende para o cockpit. O interior agora conta com muito couro e materiais requintados. Porém, o grande destaque ficou para a coloração azul que tomou conta do estofamento presente no 911. Por fim, os inúmeros logotipos “MANSORY” bordados com precisão completam o refinamento exclusivo.
+
+                                Sob o capô, o motor biturbo seis cilindros de 3.8 litros ganhou novos intercoolers, atualizações de software, mudanças no escapamento e muito mais para garantir uma potência de 900 cv. Nesta configuração o modelo acelera de zero a 100 km/h em 2,5 segundos, enquanto a velocidade máxima é de 340 km/h.
+                                
+                                O novo Mansory P9LM EVO 900 ainda não teve os seus preços revelados. Levando em consideração o valor do Porsche 911 Turbo S, podemos esperar que a variante modificada custe vários milhões. A empresa de upgrades vai produzir apenas 10 unidades do esportivo alemão atualizado.
+                            </p>
+                            <a href="#" class="btn btn-primary">tenho interesse</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+    <script src="/lib/js_bootstrap.bundle.min.js"></script>
+</body>
+</html>
