@@ -13,8 +13,26 @@ html {
 }
 
 .card {
-    width: 100%;;}
+    width: 100%;
+    margin: 10px;
+}
+
 
     hr {
         margin: 50px;
+    }
+
+
+    footer {
+        background-color: rgb(0, 0, 0);
+        height: 100px;
+        border-radius: 30px;
+        margin-top: 15px;
+    }
+
+    footer h4 {
+        color: white;
+        text-align: center;
+        padding-top: 40px;
+        
     }
